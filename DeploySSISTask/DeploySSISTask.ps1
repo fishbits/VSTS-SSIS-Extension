@@ -76,7 +76,7 @@ try {
     if ($project.Parameters.Count -gt 0) {
     	$parameterLines = $ProjectParameters -split '[\r\n]'
     	foreach ($parameterLine in $parameterLines) {
-        	$parameter = $parameterLine -split '='
+        	$parameter = $parameterLine -split '=',2
 
         	if ($project.Parameters.Contains($parameter[0])) {
             	Write-Host (Get-VstsLocString -Key SettingParameter0ValueTo1 -ArgumentList $parameter[0],$parameter[1])
