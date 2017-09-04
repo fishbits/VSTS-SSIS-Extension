@@ -23,9 +23,9 @@
 > [file an issue](https://github.com/ToxicGlobe/VSTS-SSIS-Extension/issues)
 
 ## Latest Updates
-> 0.3.350
+> 0.3.4 - 0.3.350
 >
-> Bug fixes in DepoySSISTask by avdbrink
+> Bug fixes in DepoySSISTask by avdbrink and codepb
 
 > 0.3.346
 >
